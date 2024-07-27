@@ -1,0 +1,1680 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0425.1340                               -->
+<workbook original-version='18.1' source-build='2024.1.2 (20241.24.0425.1340)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='bowl_above7' inline='true' name='federated.061qp8z0ne59sa1c4v4yp1f94e4w' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bowl_above7' name='textscan.1ww79v210yxit418oh0aw1dptz3w'>
+            <connection class='textscan' directory='C:/Users/Vijay/OneDrive/Documents/Others/ODI-BBB/Bowlers' filename='bowl_above7.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ww79v210yxit418oh0aw1dptz3w' name='bowl_above7.csv' table='[bowl_above7#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='bowler' ordinal='1' />
+            <column datatype='integer' name='runs_conceded' ordinal='2' />
+            <column datatype='integer' name='balls_bowled' ordinal='3' />
+            <column datatype='integer' name='wickets' ordinal='4' />
+            <column datatype='real' name='bowl_avg' ordinal='5' />
+            <column datatype='real' name='balls_per_wicket' ordinal='6' />
+            <column datatype='real' name='false_shot%' ordinal='7' />
+            <column datatype='real' name='econ' ordinal='8' />
+            <column datatype='real' name='%career_balls' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ww79v210yxit418oh0aw1dptz3w' name='bowl_above7.csv' table='[bowl_above7#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='bowler' ordinal='1' />
+            <column datatype='integer' name='runs_conceded' ordinal='2' />
+            <column datatype='integer' name='balls_bowled' ordinal='3' />
+            <column datatype='integer' name='wickets' ordinal='4' />
+            <column datatype='real' name='bowl_avg' ordinal='5' />
+            <column datatype='real' name='balls_per_wicket' ordinal='6' />
+            <column datatype='real' name='false_shot%' ordinal='7' />
+            <column datatype='real' name='econ' ordinal='8' />
+            <column datatype='real' name='%career_balls' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bowler</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bowler]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>bowler</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>runs_conceded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[runs_conceded]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>runs_conceded</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balls_bowled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[balls_bowled]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>balls_bowled</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wickets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wickets]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>wickets</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bowl_avg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bowl_avg]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>bowl_avg</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balls_per_wicket</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[balls_per_wicket]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>balls_per_wicket</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>false_shot%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[false_shot%]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>false_shot%</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>econ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[econ]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>econ</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%career_balls</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[%career_balls]</local-name>
+            <parent-name>[bowl_above7.csv]</parent-name>
+            <remote-alias>%career_balls</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='bowl_above7.csv' datatype='table' name='[__tableau_internal_object_id__].[bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68]' role='measure' type='quantitative' />
+      <column caption='Balls Bowled' datatype='integer' name='[balls_bowled]' role='measure' type='quantitative' />
+      <column aggregation='CountD' caption='Balls Per Wicket' datatype='real' name='[balls_per_wicket]' role='measure' type='quantitative' />
+      <column caption='Bowl Avg' datatype='real' name='[bowl_avg]' role='measure' type='quantitative' />
+      <column caption='Bowler' datatype='string' name='[bowler]' role='dimension' type='nominal' />
+      <column caption='Econ' datatype='real' name='[econ]' role='measure' type='quantitative' />
+      <column caption='False Shot%' datatype='real' name='[false_shot%]' role='measure' type='quantitative' />
+      <column caption='Runs Conceded' datatype='integer' name='[runs_conceded]' role='measure' type='quantitative' />
+      <column caption='Wickets' datatype='integer' name='[wickets]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bowl_above7.csv' id='bowl_above7.csv_4309B69FAF2349DF9F09C59DF8267A68'>
+            <properties context=''>
+              <relation connection='textscan.1ww79v210yxit418oh0aw1dptz3w' name='bowl_above7.csv' table='[bowl_above7#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='bowler' ordinal='1' />
+                  <column datatype='integer' name='runs_conceded' ordinal='2' />
+                  <column datatype='integer' name='balls_bowled' ordinal='3' />
+                  <column datatype='integer' name='wickets' ordinal='4' />
+                  <column datatype='real' name='bowl_avg' ordinal='5' />
+                  <column datatype='real' name='balls_per_wicket' ordinal='6' />
+                  <column datatype='real' name='false_shot%' ordinal='7' />
+                  <column datatype='real' name='econ' ordinal='8' />
+                  <column datatype='real' name='%career_balls' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='bowl_under7' inline='true' name='federated.0pfm0pt1dfg3cf1bhmbeu1bln48t' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bowl_under7' name='textscan.1hunj5y1qeaurx11jszih1t3o391'>
+            <connection class='textscan' directory='C:/Users/Vijay/OneDrive/Documents/Others/ODI-BBB/Bowlers' filename='bowl_under7.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1hunj5y1qeaurx11jszih1t3o391' name='bowl_under7.csv' table='[bowl_under7#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='bowler' ordinal='1' />
+            <column datatype='integer' name='runs_conceded' ordinal='2' />
+            <column datatype='integer' name='balls_bowled' ordinal='3' />
+            <column datatype='integer' name='wickets' ordinal='4' />
+            <column datatype='real' name='bowl_avg' ordinal='5' />
+            <column datatype='real' name='balls_per_wicket' ordinal='6' />
+            <column datatype='real' name='false_shot%' ordinal='7' />
+            <column datatype='real' name='econ' ordinal='8' />
+            <column datatype='real' name='%career_balls' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1hunj5y1qeaurx11jszih1t3o391' name='bowl_under7.csv' table='[bowl_under7#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='bowler' ordinal='1' />
+            <column datatype='integer' name='runs_conceded' ordinal='2' />
+            <column datatype='integer' name='balls_bowled' ordinal='3' />
+            <column datatype='integer' name='wickets' ordinal='4' />
+            <column datatype='real' name='bowl_avg' ordinal='5' />
+            <column datatype='real' name='balls_per_wicket' ordinal='6' />
+            <column datatype='real' name='false_shot%' ordinal='7' />
+            <column datatype='real' name='econ' ordinal='8' />
+            <column datatype='real' name='%career_balls' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bowler</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bowler]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>bowler</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>runs_conceded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[runs_conceded]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>runs_conceded</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balls_bowled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[balls_bowled]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>balls_bowled</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wickets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wickets]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>wickets</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bowl_avg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bowl_avg]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>bowl_avg</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balls_per_wicket</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[balls_per_wicket]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>balls_per_wicket</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>false_shot%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[false_shot%]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>false_shot%</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>econ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[econ]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>econ</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%career_balls</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[%career_balls]</local-name>
+            <parent-name>[bowl_under7.csv]</parent-name>
+            <remote-alias>%career_balls</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='%Career Balls' datatype='real' name='[%career_balls]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='bowl_under7.csv' datatype='table' name='[__tableau_internal_object_id__].[bowl_under7.csv_83A935F1A7FB490D8477FAC67DB85F6C]' role='measure' type='quantitative' />
+      <column caption='Balls Bowled' datatype='integer' name='[balls_bowled]' role='measure' type='quantitative' />
+      <column caption='Balls Per Wicket' datatype='real' name='[balls_per_wicket]' role='measure' type='quantitative' />
+      <column caption='Bowl Avg' datatype='real' name='[bowl_avg]' role='measure' type='quantitative' />
+      <column caption='Bowler' datatype='string' name='[bowler]' role='dimension' type='nominal' />
+      <column caption='Econ' datatype='real' name='[econ]' role='measure' type='quantitative' />
+      <column caption='False Shot%' datatype='real' name='[false_shot%]' role='measure' type='quantitative' />
+      <column caption='Runs Conceded' datatype='integer' name='[runs_conceded]' role='measure' type='quantitative' />
+      <column caption='Wickets' datatype='integer' name='[wickets]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bowl_under7.csv' id='bowl_under7.csv_83A935F1A7FB490D8477FAC67DB85F6C'>
+            <properties context=''>
+              <relation connection='textscan.1hunj5y1qeaurx11jszih1t3o391' name='bowl_under7.csv' table='[bowl_under7#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='bowler' ordinal='1' />
+                  <column datatype='integer' name='runs_conceded' ordinal='2' />
+                  <column datatype='integer' name='balls_bowled' ordinal='3' />
+                  <column datatype='integer' name='wickets' ordinal='4' />
+                  <column datatype='real' name='bowl_avg' ordinal='5' />
+                  <column datatype='real' name='balls_per_wicket' ordinal='6' />
+                  <column datatype='real' name='false_shot%' ordinal='7' />
+                  <column datatype='real' name='econ' ordinal='8' />
+                  <column datatype='real' name='%career_balls' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='bowl_under6' inline='true' name='federated.1wzj4hw098pxpe1ftf5ex1clzexp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bowl_under6' name='textscan.19e62n60r634rx1eh6jib1hvixir'>
+            <connection class='textscan' directory='C:/Users/Vijay/OneDrive/Documents/Others/ODI-BBB/Bowlers' filename='bowl_under6.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.19e62n60r634rx1eh6jib1hvixir' name='bowl_under6.csv' table='[bowl_under6#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='bowler' ordinal='1' />
+            <column datatype='integer' name='runs_conceded' ordinal='2' />
+            <column datatype='integer' name='balls_bowled' ordinal='3' />
+            <column datatype='integer' name='wickets' ordinal='4' />
+            <column datatype='real' name='bowl_avg' ordinal='5' />
+            <column datatype='real' name='balls_per_wicket' ordinal='6' />
+            <column datatype='real' name='false_shot%' ordinal='7' />
+            <column datatype='real' name='econ' ordinal='8' />
+            <column datatype='real' name='%career_balls' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.19e62n60r634rx1eh6jib1hvixir' name='bowl_under6.csv' table='[bowl_under6#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='bowler' ordinal='1' />
+            <column datatype='integer' name='runs_conceded' ordinal='2' />
+            <column datatype='integer' name='balls_bowled' ordinal='3' />
+            <column datatype='integer' name='wickets' ordinal='4' />
+            <column datatype='real' name='bowl_avg' ordinal='5' />
+            <column datatype='real' name='balls_per_wicket' ordinal='6' />
+            <column datatype='real' name='false_shot%' ordinal='7' />
+            <column datatype='real' name='econ' ordinal='8' />
+            <column datatype='real' name='%career_balls' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bowler</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bowler]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>bowler</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>runs_conceded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[runs_conceded]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>runs_conceded</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balls_bowled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[balls_bowled]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>balls_bowled</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wickets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wickets]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>wickets</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bowl_avg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bowl_avg]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>bowl_avg</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balls_per_wicket</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[balls_per_wicket]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>balls_per_wicket</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>false_shot%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[false_shot%]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>false_shot%</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>econ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[econ]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>econ</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%career_balls</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[%career_balls]</local-name>
+            <parent-name>[bowl_under6.csv]</parent-name>
+            <remote-alias>%career_balls</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='%Career Balls' datatype='real' name='[%career_balls]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='bowl_under6.csv' datatype='table' name='[__tableau_internal_object_id__].[bowl_under6.csv_5A8737B5AC444474B455F54286B304B4]' role='measure' type='quantitative' />
+      <column caption='Balls Bowled' datatype='integer' name='[balls_bowled]' role='measure' type='quantitative' />
+      <column caption='Balls Per Wicket' datatype='real' name='[balls_per_wicket]' role='measure' type='quantitative' />
+      <column caption='Bowl Avg' datatype='real' name='[bowl_avg]' role='measure' type='quantitative' />
+      <column caption='Bowler' datatype='string' name='[bowler]' role='dimension' type='nominal' />
+      <column caption='Econ' datatype='real' name='[econ]' role='measure' type='quantitative' />
+      <column caption='False Shot%' datatype='real' name='[false_shot%]' role='measure' type='quantitative' />
+      <column caption='Runs Conceded' datatype='integer' name='[runs_conceded]' role='measure' type='quantitative' />
+      <column caption='Wickets' datatype='integer' name='[wickets]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bowl_under6.csv' id='bowl_under6.csv_5A8737B5AC444474B455F54286B304B4'>
+            <properties context=''>
+              <relation connection='textscan.19e62n60r634rx1eh6jib1hvixir' name='bowl_under6.csv' table='[bowl_under6#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='bowler' ordinal='1' />
+                  <column datatype='integer' name='runs_conceded' ordinal='2' />
+                  <column datatype='integer' name='balls_bowled' ordinal='3' />
+                  <column datatype='integer' name='wickets' ordinal='4' />
+                  <column datatype='real' name='bowl_avg' ordinal='5' />
+                  <column datatype='real' name='balls_per_wicket' ordinal='6' />
+                  <column datatype='real' name='false_shot%' ordinal='7' />
+                  <column datatype='real' name='econ' ordinal='8' />
+                  <column datatype='real' name='%career_balls' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='bowl_under5' inline='true' name='federated.0euy88n16mygks15h62vo1fql2sj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='bowl_under5' name='textscan.1lzqol01k7jov117czlf91cjt44m'>
+            <connection class='textscan' directory='C:/Users/Vijay/OneDrive/Documents/Others/ODI-BBB/Bowlers' filename='bowl_under5.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1lzqol01k7jov117czlf91cjt44m' name='bowl_under5.csv' table='[bowl_under5#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='bowler' ordinal='1' />
+            <column datatype='integer' name='runs_conceded' ordinal='2' />
+            <column datatype='integer' name='balls_bowled' ordinal='3' />
+            <column datatype='integer' name='wickets' ordinal='4' />
+            <column datatype='real' name='bowl_avg' ordinal='5' />
+            <column datatype='real' name='balls_per_wicket' ordinal='6' />
+            <column datatype='real' name='false_shot%' ordinal='7' />
+            <column datatype='real' name='econ' ordinal='8' />
+            <column datatype='real' name='%career_balls' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1lzqol01k7jov117czlf91cjt44m' name='bowl_under5.csv' table='[bowl_under5#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='bowler' ordinal='1' />
+            <column datatype='integer' name='runs_conceded' ordinal='2' />
+            <column datatype='integer' name='balls_bowled' ordinal='3' />
+            <column datatype='integer' name='wickets' ordinal='4' />
+            <column datatype='real' name='bowl_avg' ordinal='5' />
+            <column datatype='real' name='balls_per_wicket' ordinal='6' />
+            <column datatype='real' name='false_shot%' ordinal='7' />
+            <column datatype='real' name='econ' ordinal='8' />
+            <column datatype='real' name='%career_balls' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bowler</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bowler]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>bowler</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>runs_conceded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[runs_conceded]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>runs_conceded</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balls_bowled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[balls_bowled]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>balls_bowled</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wickets</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wickets]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>wickets</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bowl_avg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bowl_avg]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>bowl_avg</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balls_per_wicket</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[balls_per_wicket]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>balls_per_wicket</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>false_shot%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[false_shot%]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>false_shot%</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>econ</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[econ]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>econ</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>%career_balls</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[%career_balls]</local-name>
+            <parent-name>[bowl_under5.csv]</parent-name>
+            <remote-alias>%career_balls</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='%Career Balls' datatype='real' name='[%career_balls]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='bowl_under5.csv' datatype='table' name='[__tableau_internal_object_id__].[bowl_under5.csv_F70509FB390441C587EF21A61B37DFC0]' role='measure' type='quantitative' />
+      <column caption='Balls Bowled' datatype='integer' name='[balls_bowled]' role='measure' type='quantitative' />
+      <column caption='Balls Per Wicket' datatype='real' name='[balls_per_wicket]' role='measure' type='quantitative' />
+      <column caption='Bowl Avg' datatype='real' name='[bowl_avg]' role='measure' type='quantitative' />
+      <column caption='Bowler' datatype='string' name='[bowler]' role='dimension' type='nominal' />
+      <column caption='Econ' datatype='real' name='[econ]' role='measure' type='quantitative' />
+      <column caption='False Shot%' datatype='real' name='[false_shot%]' role='measure' type='quantitative' />
+      <column caption='Runs Conceded' datatype='integer' name='[runs_conceded]' role='measure' type='quantitative' />
+      <column caption='Wickets' datatype='integer' name='[wickets]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='bowl_under5.csv' id='bowl_under5.csv_F70509FB390441C587EF21A61B37DFC0'>
+            <properties context=''>
+              <relation connection='textscan.1lzqol01k7jov117czlf91cjt44m' name='bowl_under5.csv' table='[bowl_under5#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='bowler' ordinal='1' />
+                  <column datatype='integer' name='runs_conceded' ordinal='2' />
+                  <column datatype='integer' name='balls_bowled' ordinal='3' />
+                  <column datatype='integer' name='wickets' ordinal='4' />
+                  <column datatype='real' name='bowl_avg' ordinal='5' />
+                  <column datatype='real' name='balls_per_wicket' ordinal='6' />
+                  <column datatype='real' name='false_shot%' ordinal='7' />
+                  <column datatype='real' name='econ' ordinal='8' />
+                  <column datatype='real' name='%career_balls' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Above7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Bold'>When ODI Innings RR Above 7 (Min. 200 balls)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bowl_above7' name='federated.061qp8z0ne59sa1c4v4yp1f94e4w' />
+          </datasources>
+          <datasource-dependencies datasource='federated.061qp8z0ne59sa1c4v4yp1f94e4w'>
+            <column datatype='real' name='[%career_balls]' role='measure' type='quantitative' />
+            <column caption='Balls Bowled' datatype='integer' name='[balls_bowled]' role='measure' type='quantitative' />
+            <column caption='Bowl Avg' datatype='real' name='[bowl_avg]' role='measure' type='quantitative' />
+            <column caption='Bowler' datatype='string' name='[bowler]' role='dimension' type='nominal' />
+            <column caption='Econ' datatype='real' name='[econ]' role='measure' type='quantitative' />
+            <column caption='False Shot%' datatype='real' name='[false_shot%]' role='measure' type='quantitative' />
+            <column-instance column='[bowler]' derivation='None' name='[none:bowler:nk]' pivot='key' type='nominal' />
+            <column-instance column='[%career_balls]' derivation='Sum' name='[sum:%career_balls:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[balls_bowled]' derivation='Sum' name='[sum:balls_bowled:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bowl_avg]' derivation='Sum' name='[sum:bowl_avg:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[econ]' derivation='Sum' name='[sum:econ:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[false_shot%]' derivation='Sum' name='[sum:false_shot%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wickets]' derivation='Sum' name='[sum:wickets:qk]' pivot='key' type='quantitative' />
+            <column caption='Wickets' datatype='integer' name='[wickets]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[none:bowler:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:bowler:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Abdur Razzak&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Ashish Nehra&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Brett Lee&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Chaminda Vaas&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Chris Mpofu&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Dilhara Fernando&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Elton Chigumbura&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Farveez Maharoof&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Harbhajan Singh&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Irfan Pathan&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;James Anderson&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Jerome Taylor&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Kyle Mills&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Mitchell Marsh&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Morne Morkel&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Nuwan Kulasekara&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Umar Gul&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Zaheer Khan&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[none:bowler:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:bowler:nk]' />
+              <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Mashrafe Mortaza&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:balls_bowled:qk]' included-values='in-range'>
+            <min>200</min>
+            <max>669</max>
+          </filter>
+          <slices>
+            <column>[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:balls_bowled:qk]</column>
+            <column>[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[none:bowler:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:wickets:qk]' max='14' min='4' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:bowl_avg:qk]' max='80.0' min='35.23' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='8.5' field='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:econ:qk]' max='10.0' min='7.0' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' field='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:false_shot%:qk]' max='24.0' min='12.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='color' field='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:%career_balls:qk]' max='12.0' min='4.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:wickets:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:wickets:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:bowl_avg:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:bowl_avg:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:false_shot%:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:false_shot%:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:%career_balls:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:%career_balls:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:econ:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:econ:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[none:bowler:nk]</rows>
+        <cols>([federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:wickets:qk] + ([federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:bowl_avg:qk] + ([federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:econ:qk] + ([federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:false_shot%:qk] + [federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:%career_balls:qk]))))</cols>
+      </table>
+      <simple-id uuid='{CD2B0316-EA49-45E2-9789-546F03AFDD26}' />
+    </worksheet>
+    <worksheet name='Under5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Bold'>When ODI Innings RR below 5 (Min. 2000 balls)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bowl_under5' name='federated.0euy88n16mygks15h62vo1fql2sj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0euy88n16mygks15h62vo1fql2sj'>
+            <column caption='%Career Balls' datatype='real' name='[%career_balls]' role='measure' type='quantitative' />
+            <column caption='Balls Bowled' datatype='integer' name='[balls_bowled]' role='measure' type='quantitative' />
+            <column caption='Bowl Avg' datatype='real' name='[bowl_avg]' role='measure' type='quantitative' />
+            <column caption='Bowler' datatype='string' name='[bowler]' role='dimension' type='nominal' />
+            <column caption='Econ' datatype='real' name='[econ]' role='measure' type='quantitative' />
+            <column caption='False Shot%' datatype='real' name='[false_shot%]' role='measure' type='quantitative' />
+            <column-instance column='[balls_bowled]' derivation='None' name='[none:balls_bowled:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bowler]' derivation='None' name='[none:bowler:nk]' pivot='key' type='nominal' />
+            <column-instance column='[%career_balls]' derivation='Sum' name='[sum:%career_balls:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bowl_avg]' derivation='Sum' name='[sum:bowl_avg:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[econ]' derivation='Sum' name='[sum:econ:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[false_shot%]' derivation='Sum' name='[sum:false_shot%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wickets]' derivation='Sum' name='[sum:wickets:qk]' pivot='key' type='quantitative' />
+            <column caption='Wickets' datatype='integer' name='[wickets]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0euy88n16mygks15h62vo1fql2sj].[none:balls_bowled:qk]' included-values='in-range'>
+            <min>2000</min>
+            <max>8015</max>
+          </filter>
+          <filter class='categorical' column='[federated.0euy88n16mygks15h62vo1fql2sj].[none:bowler:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:bowler:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Andre Nel&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Brad Hogg&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Brett Lee&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Chris Gayle&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Daniel Vettori&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Daren Sammy&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Dilhara Fernando&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Dwayne Bravo&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Elton Chigumbura&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Glenn McGrath&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Irfan Pathan&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;James Anderson&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Jerome Taylor&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Makhaya Ntini&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Marlon Samuels&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Mohammad Hafeez&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Munaf Patel&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Muthiah Muralidaran&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Nathan Bracken&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Nuwan Kulasekara&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Paul Collingwood&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Ravi Rampaul&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Shahid Afridi&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Shane Bond&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Shane Watson&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Tillakaratne Dilshan&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Umar Gul&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Yuvraj Singh&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Zaheer Khan&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0euy88n16mygks15h62vo1fql2sj].[none:bowler:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:false_shot%:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0euy88n16mygks15h62vo1fql2sj].[none:balls_bowled:qk]</column>
+            <column>[federated.0euy88n16mygks15h62vo1fql2sj].[none:bowler:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' center='105.5' field='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:wickets:qk]' max='175' min='36' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='24.730000000000004' field='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:bowl_avg:qk]' max='35.13' min='14.33' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='4.085' field='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:econ:qk]' max='4.8899999999999997' min='3.28' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='13.5' field='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:false_shot%:qk]' max='22.0' min='5.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='color' center='59.924999999999997' field='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:%career_balls:qk]' max='74.85' min='45.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:wickets:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:wickets:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:bowl_avg:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:bowl_avg:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:econ:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:econ:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:false_shot%:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:false_shot%:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:%career_balls:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:%career_balls:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0euy88n16mygks15h62vo1fql2sj].[none:bowler:nk]</rows>
+        <cols>([federated.0euy88n16mygks15h62vo1fql2sj].[sum:wickets:qk] + ([federated.0euy88n16mygks15h62vo1fql2sj].[sum:bowl_avg:qk] + ([federated.0euy88n16mygks15h62vo1fql2sj].[sum:econ:qk] + ([federated.0euy88n16mygks15h62vo1fql2sj].[sum:false_shot%:qk] + [federated.0euy88n16mygks15h62vo1fql2sj].[sum:%career_balls:qk]))))</cols>
+      </table>
+      <simple-id uuid='{D8823F42-7385-446D-ACE6-1724D367370E}' />
+    </worksheet>
+    <worksheet name='Under6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Bold'>When ODI Innings RR in [5,6) (Min. 1000 balls)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bowl_under6' name='federated.1wzj4hw098pxpe1ftf5ex1clzexp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1wzj4hw098pxpe1ftf5ex1clzexp'>
+            <column caption='%Career Balls' datatype='real' name='[%career_balls]' role='measure' type='quantitative' />
+            <column caption='Balls Bowled' datatype='integer' name='[balls_bowled]' role='measure' type='quantitative' />
+            <column caption='Bowl Avg' datatype='real' name='[bowl_avg]' role='measure' type='quantitative' />
+            <column caption='Bowler' datatype='string' name='[bowler]' role='dimension' type='nominal' />
+            <column caption='Econ' datatype='real' name='[econ]' role='measure' type='quantitative' />
+            <column caption='False Shot%' datatype='real' name='[false_shot%]' role='measure' type='quantitative' />
+            <column-instance column='[balls_bowled]' derivation='None' name='[none:balls_bowled:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bowler]' derivation='None' name='[none:bowler:nk]' pivot='key' type='nominal' />
+            <column-instance column='[%career_balls]' derivation='Sum' name='[sum:%career_balls:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bowl_avg]' derivation='Sum' name='[sum:bowl_avg:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[econ]' derivation='Sum' name='[sum:econ:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[false_shot%]' derivation='Sum' name='[sum:false_shot%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wickets]' derivation='Sum' name='[sum:wickets:qk]' pivot='key' type='quantitative' />
+            <column caption='Wickets' datatype='integer' name='[wickets]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[none:balls_bowled:qk]' included-values='in-range'>
+            <min>1000</min>
+            <max>3376</max>
+          </filter>
+          <filter class='categorical' column='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[none:bowler:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:bowler:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Abdur Razzak&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Brett Lee&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Chris Gayle&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Daniel Vettori&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Daren Sammy&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Dwayne Bravo&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Harbhajan Singh&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Irfan Pathan&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;James Anderson&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Kyle Mills&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Mashrafe Mortaza&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Mohammad Hafeez&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Muthiah Muralidaran&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Nuwan Kulasekara&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Paul Collingwood&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Shahid Afridi&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Shane Watson&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Tillakaratne Dilshan&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Umar Gul&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Yuvraj Singh&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Zaheer Khan&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[none:bowler:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:false_shot%:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[none:balls_bowled:qk]</column>
+            <column>[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[none:bowler:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' center='34.5' field='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:wickets:qk]' max='60' min='9' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='color' center='47.689999999999998' field='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:bowl_avg:qk]' max='65.22' min='30.16' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='5.5649999999999995' field='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:econ:qk]' max='6.45' min='4.68' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='17.57' field='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:false_shot%:qk]' max='24.77' min='10.37' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='color' center='26.865000000000002' field='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:%career_balls:qk]' max='32.0' min='21.73' palette='red_green_gold_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:wickets:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:wickets:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:bowl_avg:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:bowl_avg:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:econ:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:econ:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:false_shot%:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:false_shot%:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:%career_balls:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:%career_balls:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[none:bowler:nk]</rows>
+        <cols>([federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:wickets:qk] + ([federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:bowl_avg:qk] + ([federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:econ:qk] + ([federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:false_shot%:qk] + [federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:%career_balls:qk]))))</cols>
+      </table>
+      <simple-id uuid='{332F537D-3961-4E63-92AD-A417F578CD62}' />
+    </worksheet>
+    <worksheet name='Under7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Tableau Bold'>When ODI Innings RR in [6,7) (Min. 500 balls)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='bowl_under7' name='federated.0pfm0pt1dfg3cf1bhmbeu1bln48t' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pfm0pt1dfg3cf1bhmbeu1bln48t'>
+            <column caption='%Career Balls' datatype='real' name='[%career_balls]' role='measure' type='quantitative' />
+            <column caption='Balls Bowled' datatype='integer' name='[balls_bowled]' role='measure' type='quantitative' />
+            <column caption='Bowl Avg' datatype='real' name='[bowl_avg]' role='measure' type='quantitative' />
+            <column caption='Bowler' datatype='string' name='[bowler]' role='dimension' type='nominal' />
+            <column caption='Econ' datatype='real' name='[econ]' role='measure' type='quantitative' />
+            <column caption='False Shot%' datatype='real' name='[false_shot%]' role='measure' type='quantitative' />
+            <column-instance column='[bowler]' derivation='None' name='[none:bowler:nk]' pivot='key' type='nominal' />
+            <column-instance column='[%career_balls]' derivation='Sum' name='[sum:%career_balls:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[balls_bowled]' derivation='Sum' name='[sum:balls_bowled:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bowl_avg]' derivation='Sum' name='[sum:bowl_avg:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[econ]' derivation='Sum' name='[sum:econ:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[false_shot%]' derivation='Sum' name='[sum:false_shot%:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[wickets]' derivation='Sum' name='[sum:wickets:qk]' pivot='key' type='quantitative' />
+            <column caption='Wickets' datatype='integer' name='[wickets]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[none:bowler:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:bowler:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Abdur Razzak&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Harbhajan Singh&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;James Anderson&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Mashrafe Mortaza&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Nuwan Kulasekara&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Prosper Utseya&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Shahid Afridi&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Shane Watson&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Umar Gul&quot;' />
+                <groupfilter function='member' level='[none:bowler:nk]' member='&quot;Zaheer Khan&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:balls_bowled:qk]' included-values='in-range'>
+            <min>500</min>
+            <max>1120</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[none:bowler:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:false_shot%:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:balls_bowled:qk]</column>
+            <column>[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[none:bowler:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' center='22.5' field='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:wickets:qk]' max='30' min='15' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='color' center='37.674999999999997' field='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:bowl_avg:qk]' max='48.5' min='28.85' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='7.25' field='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:econ:qk]' max='8.5' min='6.0' palette='red_green_gold_diverging_10_0' reverse='true' type='interpolated' />
+            <encoding attr='color' center='17.5' field='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:false_shot%:qk]' max='25.0' min='10.0' palette='red_green_gold_diverging_10_0' type='interpolated' />
+            <encoding attr='color' center='11.234999999999999' field='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:%career_balls:qk]' max='13.73' min='8.74' palette='red_green_gold_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:wickets:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:wickets:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:bowl_avg:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:bowl_avg:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:econ:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:econ:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:false_shot%:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:false_shot%:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:%career_balls:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:%career_balls:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[none:bowler:nk]</rows>
+        <cols>([federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:wickets:qk] + ([federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:bowl_avg:qk] + ([federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:econ:qk] + ([federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:false_shot%:qk] + [federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:%career_balls:qk]))))</cols>
+      </table>
+      <simple-id uuid='{285CB135-594E-4284-B678-7787B1AC64E1}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='115'>
+    <window class='worksheet' maximized='true' name='Above7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:balls_bowled:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='2' param='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:wickets:qk]' type='color' />
+            <card pane-specification-id='3' param='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:bowl_avg:qk]' type='color' />
+            <card pane-specification-id='6' param='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:econ:qk]' type='color' />
+            <card pane-specification-id='4' param='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:false_shot%:qk]' type='color' />
+            <card pane-specification-id='5' param='[federated.061qp8z0ne59sa1c4v4yp1f94e4w].[sum:%career_balls:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{75851690-E332-43BC-991E-28EFFB2FAB4C}' />
+    </window>
+    <window class='worksheet' name='Under7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:balls_bowled:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:wickets:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:bowl_avg:qk]' type='color' />
+            <card pane-specification-id='3' param='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:econ:qk]' type='color' />
+            <card pane-specification-id='4' param='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:false_shot%:qk]' type='color' />
+            <card pane-specification-id='5' param='[federated.0pfm0pt1dfg3cf1bhmbeu1bln48t].[sum:%career_balls:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{876F8805-CB3F-4761-B592-5B3F591B589E}' />
+    </window>
+    <window class='worksheet' name='Under6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:wickets:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:bowl_avg:qk]' type='color' />
+            <card pane-specification-id='3' param='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:econ:qk]' type='color' />
+            <card pane-specification-id='4' param='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:false_shot%:qk]' type='color' />
+            <card pane-specification-id='5' param='[federated.1wzj4hw098pxpe1ftf5ex1clzexp].[sum:%career_balls:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{12E6C73A-43CE-4D09-903D-D7ED9C047224}' />
+    </window>
+    <window class='worksheet' name='Under5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0euy88n16mygks15h62vo1fql2sj].[none:balls_bowled:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='1' param='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:wickets:qk]' type='color' />
+            <card pane-specification-id='2' param='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:bowl_avg:qk]' type='color' />
+            <card pane-specification-id='3' param='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:econ:qk]' type='color' />
+            <card pane-specification-id='4' param='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:false_shot%:qk]' type='color' />
+            <card pane-specification-id='5' param='[federated.0euy88n16mygks15h62vo1fql2sj].[sum:%career_balls:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BB076251-2F0C-4BCD-AAE6-01375D1166EB}' />
+    </window>
+  </windows>
+</workbook>
